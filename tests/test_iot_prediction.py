@@ -1,5 +1,4 @@
 import joblib
-
 from banana_ml.features.iot_features import prepare_iot_features
 
 

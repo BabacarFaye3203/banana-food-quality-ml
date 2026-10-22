@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/babacar/model_ml_iot/mlruns/1/models/m-1883b9384e964b16a25453f77e73e279/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.8
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-1883b9384e964b16a25453f77e73e279
+model_size_bytes: 888906
+model_uuid: m-1883b9384e964b16a25453f77e73e279
+prompts: null
+run_id: 395868ffa50c47b184fe8758f075bb57
+utc_time_created: '2026-10-06 03:29:48.359922'

@@ -1,4 +1,6 @@
 from banana_ml.models.predictor import predict_quality
+import pytest
+
 
 
 def test_predict_quality_bon():
@@ -41,8 +43,6 @@ def test_predict_quality_mauvais():
     }
 
     assert predict_quality(data) == "mauvais"
-
-import pytest
 
 
 def test_predict_quality_rejects_invalid_iot_data():
